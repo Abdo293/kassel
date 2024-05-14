@@ -408,19 +408,6 @@
   transform: scaleX(1.2);
 }
 
-.element-container:hover {
-  scale: 0.3;
-  box-shadow: none;
-  border: 1px solid whitesmoke;
-  transform: scale(7);
-  font-weight: bold;
-  color: #0b45c2;
-  width: fit-content;
-  height: fit-content;
-  padding: 0;
-  margin: 0;
-}
-
 .company-title {
   width: 25%;
 }
@@ -640,4 +627,22 @@ nav span:not(:first-child) {
     width: 100%;
     margin-bottom: 0;
   }
+}
+
+.floating-container {
+  left: 30px;
+}
+.back-top-button {
+  right: 0 !important;
+  left: auto;
+}
+
+.element-container-show span:nth-child(5) {
+  left: 130%;
+}
+.element-container-show span:nth-child(4) {
+  left: 105%;
+}
+.item-box .box {
+  height: 125px;
 }
