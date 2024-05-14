@@ -2589,13 +2589,13 @@ h1 span {
 @media (max-width: 430px) {
   .navbar .language-btn,
   .navbar .language-button {
-    left: 62%;
+    left: 65%;
   }
 }
 @media (max-width: 390px) {
   .navbar .language-btn,
   .navbar .language-button {
-    left: 60%;
+    left: 63%;
   }
 }
 

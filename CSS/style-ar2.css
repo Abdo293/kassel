@@ -607,5 +607,25 @@ nav span:not(:first-child) {
 }
 
 .language-button select {
-  direction: ltr;
+  direction: rtl;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .animation-box {
+    right: 7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar .nav-icon {
+    left: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .language-btn,
+  .navbar .language-button {
+    left: 15%;
+    display: none;
+  }
 }
