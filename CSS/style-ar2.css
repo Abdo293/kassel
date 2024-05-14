@@ -629,3 +629,15 @@ nav span:not(:first-child) {
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .hedding-section h2 {
+    padding-top: 15px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .services-section .service-box:nth-child(3) .img-section {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
